@@ -16,7 +16,7 @@ const CoinSlider = () => {
   );
 
   return (
-    <div className="md:container m-auto ">
+    <div >
       <p className="text-2xl mb-3">Your top movers</p>
       <Carousel
         plugins={[plugin.current]}

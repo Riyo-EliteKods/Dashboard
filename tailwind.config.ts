@@ -79,6 +79,7 @@ const config = {
       },
       spacing: {
         240: '240px', // Add custom gap of 240px
+        400: '450px', // Add custom gap of 240px
       },
     },
   },

@@ -41,7 +41,7 @@ const Dashboard = () => {
                       href="#"
                       className="text-orange-500 flex gap-1 items-center"
                     >
-                      <span>check lates listed coins </span>
+                      <span>check latest listed coins </span>
                       <span>
                         <LuArrowUpRight />
                       </span>
@@ -66,8 +66,8 @@ const Dashboard = () => {
             <div>
               <div className="flex justify-between mb-3">
                 <h1 className="md:text-3xl text-xl font-bold ">PnL Analysis</h1>
-                <p className="flex items-center gap-1 bg-green-950 p-1 rounded-2xl text-custom-green">
-                  <span>This Month 5%</span>{" "}
+                <p className="flex items-center gap-1 bg-green-950 px-4 rounded-2xl text-custom-green">
+                  <span className="font-bold ">This Month 5%</span>{" "}
                   <span>
                     <FaArrowTrendUp />
                   </span>
@@ -83,13 +83,13 @@ const Dashboard = () => {
             {/* table - 2  */}
             <div>
               <h1 className="text-3xl font-bold mb-5">Your holdings</h1>
-              <Table className="text-white text-center mb-3">
+              <Table className="text-white text-center mb-5">
                 {/* <TableCaption>A list of your recent invoices.</TableCaption> */}
                 <TableHeader>
                   <TableRow className="bg-custom-brown rounded-tl-2xl ">
                     <TableHead className="text-center ">
                       <div className="flex items-center gap-1 text-white justify-start">
-                        <span> Assest</span>
+                        <span> Asset</span>
                         <span>
                           <LuArrowUpDown />
                         </span>
@@ -123,14 +123,14 @@ const Dashboard = () => {
                 </TableHeader>
                 <TableBody>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-1.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>Ethereum ETH</span>
+                        <span className="md:text-lg text-xs">Ethereum ETH</span>
                       </div>
                     </TableCell>
                     <TableCell>2.5</TableCell>
@@ -138,14 +138,16 @@ const Dashboard = () => {
                     <TableCell className="text-right">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-2.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>Wrapped Bitcoin WBTC</span>
+                        <span className="md:text-lg text-xs">
+                          Wrapped Bitcoin WBTC
+                        </span>
                       </div>
                     </TableCell>
                     <TableCell>0.05</TableCell>
@@ -153,14 +155,14 @@ const Dashboard = () => {
                     <TableCell className="text-right">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-3.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>Frax FRAX</span>
+                        <span className="md:text-lg text-xs">Frax FRAX</span>
                       </div>
                     </TableCell>
                     <TableCell>350</TableCell>
@@ -168,14 +170,14 @@ const Dashboard = () => {
                     <TableCell className="text-right">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-4.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>pepe PEPE</span>
+                        <span className="md:text-lg text-xs">pepe PEPE</span>
                       </div>
                     </TableCell>
                     <TableCell>1,000.520</TableCell>
@@ -183,14 +185,14 @@ const Dashboard = () => {
                     <TableCell className="text-right">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-5.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>Maker MKR</span>
+                        <span className="md:text-lg text-xs">Maker MKR</span>
                       </div>
                     </TableCell>
                     <TableCell>1</TableCell>
@@ -198,14 +200,14 @@ const Dashboard = () => {
                     <TableCell className="text-right">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-6.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>Uniswap UNI</span>
+                        <span className="md:text-lg text-xs">Uniswap UNI</span>
                       </div>
                     </TableCell>
                     <TableCell>25</TableCell>
@@ -213,14 +215,16 @@ const Dashboard = () => {
                     <TableCell className="text-right">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-7.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>Chainlink Token UNI</span>
+                        <span className="md:text-lg text-xs">
+                          Chainlink Token UNI
+                        </span>
                       </div>
                     </TableCell>
                     <TableCell>50</TableCell>
@@ -228,14 +232,14 @@ const Dashboard = () => {
                     <TableCell className="text-right">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-8.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>Rinbbon RBN</span>
+                        <span className="md:text-lg text-xs">Ribbon RBN</span>
                       </div>
                     </TableCell>
                     <TableCell>350</TableCell>
@@ -243,14 +247,14 @@ const Dashboard = () => {
                     <TableCell className="text-right">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-9.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>INU SHIB</span>
+                        <span className="md:text-lg text-xs">INU SHIB</span>
                       </div>
                     </TableCell>
                     <TableCell>3800</TableCell>
@@ -258,14 +262,14 @@ const Dashboard = () => {
                     <TableCell className="text-right">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-0">
+                    <TableCell className="font-medium p-3">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-10.png"
                           alt=""
-                          className="w-10 h-10 rounded-full"
+                          className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span>Token LDO</span>
+                        <span className="md:text-lg text-xs">Token LDO</span>
                       </div>
                     </TableCell>
                     <TableCell>1</TableCell>
@@ -326,150 +330,158 @@ const Dashboard = () => {
             {/* table - 2 */}
             <div>
               <h1 className="text-3xl font-bold mb-5">Recent Activity</h1>
-              <Table>
-                <TableBody>
-                  <TableRow className="border-0 ">
-                    <TableCell className="md:w-32">
-                      <div className="flex items-end">
-                        <img
-                          src="../Images/coin-1.png"
-                          alt=""
-                          className="md:w-10  md:h-10 w-5 h-5 "
-                        />
-                        <img
-                          src="../Images/coin-2.png"
-                          alt=""
-                          className="md:w-10  md:h-10  w-5 h-5"
-                        />
-                        <span className="bg-amber-900 rounded-full p-1 md:h-6 h-5">
-                          <RxLoop className=" text-orange-600" />
-                        </span>
-                      </div>
-                    </TableCell>
-                    <TableCell className="text-center pe-0">
-                      <p className="font-bold md:text-xl text-md">Swapped</p>
-                      <p className="md:text-md text-xs">
-                        20 LINK For 0.1074 ETH
-                      </p>
-                    </TableCell>
-                    <TableCell className="md:w-28">
-                      <p className="md:text-lg text-sm">03/19/23</p>
-                      <p className="float-end text-orange-500 md:text-xl text-md">
-                        <LuArrowUpRight />
-                      </p>
-                    </TableCell>
-                  </TableRow>
+              <div className="overflow-hidden mb-5">
+                <Table className="md:w-full w-400 ">
+                  <TableBody>
+                    <TableRow className="border-0 ">
+                      <TableCell className="md:w-32 w-24">
+                        <div className="flex items-center relative">
+                          <img
+                            src="../Images/coin-7.png"
+                            alt=""
+                            className="md:w-10  md:h-10 w-8 h-7 absolute md:left-0 z-40 rounded-full"
+                          />
+                          <img
+                            src="../Images/coin-1.png"
+                            alt=""
+                            className="md:w-10  md:h-10  w-8 h-7 absolute md:left-6 left-6 z-30 rounded"
+                          />
+                          <p className="bg-amber-900 rounded-full p-1 md:h-6 h-5 absolute md:left-14 left-12 z-40  -top-1">
+                            <RxLoop className=" text-orange-600 " />
+                          </p>
+                        </div>
+                      </TableCell>
+                      <TableCell className="text-center pe-0">
+                        <p className="font-bold md:text-xl text-md">Swapped</p>
+                        <p className="md:text-md text-xs">
+                          20 LINK For 0.1074 ETH
+                        </p>
+                      </TableCell>
+                      <TableCell className="md:w-28 w-24">
+                        <p className="md:text-lg text-sm">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-xl text-md">
+                          <LuArrowUpRight />
+                        </p>
+                      </TableCell>
+                    </TableRow>
 
-                  <TableRow className="border-0">
-                    <TableCell className="md:w-32">
-                      <div className="flex items-end">
-                        <img
-                          src="../Images/coin-4.png"
-                          alt=""
-                          className="rounded-full md:w-10  md:h-10  w-5 h-5"
-                        />
-                        <span className="bg-amber-900 rounded-full p-1 md:h-6 h-5">
-                          <HiOutlineArrowNarrowDown className=" text-orange-600" />
-                        </span>
-                      </div>
-                    </TableCell>
-                    <TableCell className="text-center pe-0">
-                      <p className="font-bold md:text-xl text-md">Received</p>
-                      <p className="md:text-md text-xs">NFT From mutant.ens</p>
-                    </TableCell>
-                    <TableCell className="md:w-28">
-                      <p className="md:text-lg text-sm">03/19/23</p>
-                      <p className="float-end text-orange-500 md:text-xl text-md">
-                        <LuArrowUpRight />
-                      </p>
-                    </TableCell>
-                  </TableRow>
+                    <TableRow className="border-0">
+                      <TableCell className="md:w-32">
+                        <div className="flex items-center relative">
+                          <img
+                            src="../Images/coin-11.jfif"
+                            alt=""
+                            className="rounded-full md:w-10  md:h-10  w-8 h-8  absolute left-0 z-10"
+                          />
+                          <span className="bg-amber-900 rounded-full p-1 md:h-6 h-5 absolute left-7 z-20 -top-1">
+                            <HiOutlineArrowNarrowDown className=" text-orange-600" />
+                          </span>
+                        </div>
+                      </TableCell>
+                      <TableCell className="text-center pe-0">
+                        <p className="font-bold md:text-xl text-md">Received</p>
+                        <p className="md:text-md text-xs">
+                          NFT From mutant.ens
+                        </p>
+                      </TableCell>
+                      <TableCell className="md:w-28 w-24">
+                        <p className="md:text-lg text-sm">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-xl text-md">
+                          <LuArrowUpRight />
+                        </p>
+                      </TableCell>
+                    </TableRow>
 
-                  <TableRow className="border-0">
-                    <TableCell className="md:w-32">
-                      <div className="flex items-end">
-                        <img
-                          src="../Images/coin-5.png"
-                          alt=""
-                          className="rounded-full md:w-10  md:h-10  w-5 h-5"
-                        />
-                        <span className="bg-amber-900 rounded-full p-1 md:h-6 h-5">
-                          <CgArrowUp className=" text-orange-600" />
-                        </span>
-                      </div>
-                    </TableCell>
-                    <TableCell className="text-center pe-0">
-                      <p className="font-bold md:text-xl text-md">
-                        Transferred
-                      </p>
-                      <p className="md:text-md text-xs">
-                        WBTC to 0x6584...BD68
-                      </p>
-                    </TableCell>
-                    <TableCell className="md:w-28">
-                      <p className="md:text-lg text-sm">03/19/23</p>
-                      <p className="float-end text-orange-500 md:text-xl text-md">
-                        <LuArrowUpRight />
-                      </p>
-                    </TableCell>
-                  </TableRow>
+                    <TableRow className="border-0">
+                      <TableCell className="md:w-32">
+                        <div className="flex items-center relative">
+                          <img
+                            src="../Images/coin-2.png"
+                            alt=""
+                            className="rounded-full md:w-10  md:h-10  w-8 h-8 absolute left-0 z-10"
+                          />
+                          <span className="bg-amber-900 rounded-full p-1 md:h-6 h-5 absolute left-7 z-20 -top-1">
+                            <CgArrowUp className=" text-orange-600" />
+                          </span>
+                        </div>
+                      </TableCell>
+                      <TableCell className="text-center pe-0">
+                        <p className="font-bold md:text-xl text-md">
+                          Transferred
+                        </p>
+                        <p className="md:text-md text-xs">
+                          WBTC to 0x6584...BD68
+                        </p>
+                      </TableCell>
+                      <TableCell className="md:w-28 w-24">
+                        <p className="md:text-lg text-sm">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-xl text-md">
+                          <LuArrowUpRight />
+                        </p>
+                      </TableCell>
+                    </TableRow>
 
-                  <TableRow className="border-0">
-                    <TableCell className="md:w-32">
-                      <div className="flex items-end">
-                        <img
-                          src="../Images/coin-6.png"
-                          alt=""
-                          className="rounded-full md:w-10  md:h-10  w-5 h-5"
-                        />
-                        <span className="bg-amber-900 rounded-full p-1 md:h-6 h-5">
-                          <TbArrowFork className=" text-orange-600" />
-                        </span>
-                      </div>
-                    </TableCell>
-                    <TableCell className="text-center pe-0">
-                      <p className="font-bold md:text-xl text-md">Bridged</p>
-                      <p className="md:text-md text-xs">Ethereum to polygon</p>
-                    </TableCell>
-                    <TableCell className="md:w-28">
-                      <p className="md:text-lg text-sm">03/19/23</p>
-                      <p className="float-end text-orange-500 md:text-xl text-md">
-                        <LuArrowUpRight />
-                      </p>
-                    </TableCell>
-                  </TableRow>
+                    <TableRow className="border-0">
+                      <TableCell className="md:w-32">
+                        <div className="flex items-center relative">
+                          <img
+                            src="../Images/coin-6.png"
+                            alt=""
+                            className="rounded-full md:w-10  md:h-10  w-8 h-8  absolute left-0 z-10"
+                          />
+                          <span className="bg-amber-900 rounded-full p-1 md:h-6 h-5 absolute left-7 z-20 -top-1">
+                            <TbArrowFork className=" text-orange-600" />
+                          </span>
+                        </div>
+                      </TableCell>
+                      <TableCell className="text-center pe-0">
+                        <p className="font-bold md:text-xl text-md">Bridged</p>
+                        <p className="md:text-md text-xs">
+                          Ethereum to polygon
+                        </p>
+                      </TableCell>
+                      <TableCell className="md:w-28 w-24">
+                        <p className="md:text-lg text-sm">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-xl text-md">
+                          <LuArrowUpRight />
+                        </p>
+                      </TableCell>
+                    </TableRow>
 
-                  <TableRow className="border-0">
-                    <TableCell className="md:w-32">
-                      <div className="flex items-end">
-                        <img
-                          src="../Images/coin-7.png"
-                          alt=""
-                          className="rounded-full md:w-10  md:h-10  w-5 h-5"
-                        />
-                        <img
-                          src="../Images/coin-8.png"
-                          alt=""
-                          className="rounded-full md:w-10  md:h-10  w-5 h-5"
-                        />
-                        <span className="bg-amber-900 rounded-full p-1 md:h-6 h-5">
-                          <RxLoop className=" text-orange-600" />
-                        </span>
-                      </div>
-                    </TableCell>
-                    <TableCell className="text-center pe-0">
-                      <p className="font-bold md:text-xl text-md">Swapped</p>
-                      <p className="md:text-md text-xs">1 ETH to 3,500 USDC</p>
-                    </TableCell>
-                    <TableCell className="md:w-28">
-                      <p className="md:text-lg text-sm">03/19/23</p>
-                      <p className="float-end text-orange-500 md:text-xl text-md">
-                        <LuArrowUpRight />
-                      </p>
-                    </TableCell>
-                  </TableRow>
-                </TableBody>
-              </Table>
+                    <TableRow className="border-0">
+                      <TableCell className="md:w-32">
+                        <div className="flex items-center relative">
+                          <img
+                            src="../Images/coin-1.png"
+                            alt=""
+                            className="rounded-full md:w-10  md:h-10  w-8 h-7 absolute md:left-0 z-40 "
+                          />
+                          <img
+                            src="../Images/coin-12.jfif"
+                            alt=""
+                            className="rounded-full md:w-10  md:h-10 w-8 h-7 absolute md:left-6 left-6 z-30"
+                          />
+                          <span className="bg-amber-900 rounded-full p-1 md:h-6 h-5 absolute md:left-14 left-12 z-40  -top-1">
+                            <RxLoop className=" text-orange-600" />
+                          </span>
+                        </div>
+                      </TableCell>
+                      <TableCell className="text-center pe-0">
+                        <p className="font-bold md:text-xl text-md">Swapped</p>
+                        <p className="md:text-md text-xs">
+                          1 ETH to 3,500 USDC
+                        </p>
+                      </TableCell>
+                      <TableCell className="md:w-28 w-24">
+                        <p className="md:text-lg text-sm">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-xl text-md">
+                          <LuArrowUpRight />
+                        </p>
+                      </TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
+              </div>
               <nav aria-label="Page navigation example" className="text-center">
                 <ul className="inline-flex -space-x-px text-sm">
                   <li>
