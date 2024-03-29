@@ -31,8 +31,8 @@ const Dashboard = () => {
             <div>
               <div className="flex  bg-custom-brown p-4 justify-between items-start md:items-center mb-6 rounded-xl">
                 <div>
-                  <p className="text-2xl mb-2">My Balance</p>
-                  <p className="md:text-6xl text-3xl font-bold mb-4">
+                  <p className="text-1xl mb-2">My Balance</p>
+                  <p className="md:text-4xl text-2xl font-bold mb-4">
                     $25,350.52
                   </p>
                   <div className="flex md:flex-row gap-1 mb-1 flex-col">
@@ -65,7 +65,7 @@ const Dashboard = () => {
 
             <div>
               <div className="flex justify-between mb-3">
-                <h1 className="md:text-3xl text-xl font-bold ">PnL Analysis</h1>
+                <h1 className="md:text-2xl text-xl font-bold ">PnL Analysis</h1>
                 <p className="flex items-center gap-1 bg-green-950 px-4 rounded-2xl text-custom-green">
                   <span className="font-bold ">This Month 5%</span>{" "}
                   <span>
@@ -82,7 +82,7 @@ const Dashboard = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-5">
             {/* table - 2  */}
             <div>
-              <h1 className="text-3xl font-bold mb-5">Your holdings</h1>
+              <h1 className="text-2xl font-bold mb-5">Your holdings</h1>
               <Table className="text-white text-center mb-5">
                 {/* <TableCaption>A list of your recent invoices.</TableCaption> */}
                 <TableHeader>
@@ -123,158 +123,158 @@ const Dashboard = () => {
                 </TableHeader>
                 <TableBody>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-1.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">Ethereum ETH</span>
+                        <span className="md:text-sm text-xs">Ethereum ETH</span>
                       </div>
                     </TableCell>
                     <TableCell>2.5</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-2.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">
+                        <span className="md:text-sm text-xs">
                           Wrapped Bitcoin WBTC
                         </span>
                       </div>
                     </TableCell>
                     <TableCell>0.05</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-3.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">Frax FRAX</span>
+                        <span className="md:text-sm text-xs">Frax FRAX</span>
                       </div>
                     </TableCell>
                     <TableCell>350</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-4.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">pepe PEPE</span>
+                        <span className="md:text-sm text-xs">pepe PEPE</span>
                       </div>
                     </TableCell>
                     <TableCell>1,000.520</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-5.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">Maker MKR</span>
+                        <span className="md:text-sm text-xs">Maker MKR</span>
                       </div>
                     </TableCell>
                     <TableCell>1</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-6.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">Uniswap UNI</span>
+                        <span className="md:text-sm text-xs">Uniswap UNI</span>
                       </div>
                     </TableCell>
                     <TableCell>25</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-7.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">
+                        <span className="md:text-sm text-xs">
                           Chainlink Token UNI
                         </span>
                       </div>
                     </TableCell>
                     <TableCell>50</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-8.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">Ribbon RBN</span>
+                        <span className="md:text-sm text-xs">Ribbon RBN</span>
                       </div>
                     </TableCell>
                     <TableCell>350</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-9.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">INU SHIB</span>
+                        <span className="md:text-sm text-xs">INU SHIB</span>
                       </div>
                     </TableCell>
                     <TableCell>3800</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                   <TableRow className="border-0">
-                    <TableCell className="font-medium p-3">
+                    <TableCell className="font-medium p-2">
                       <div className="flex gap-1 items-center">
                         <img
                           src="../Images/coin-10.png"
                           alt=""
                           className="md:w-10 md:h-10 rounded-full w-7 h-7"
                         />
-                        <span className="md:text-lg text-xs">Token LDO</span>
+                        <span className="md:text-sm text-xs">Token LDO</span>
                       </div>
                     </TableCell>
                     <TableCell>1</TableCell>
                     <TableCell>$3,500</TableCell>
-                    <TableCell className="text-right">$8,750</TableCell>
+                    <TableCell className="text-right text-sm">$8,750</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>
@@ -282,46 +282,46 @@ const Dashboard = () => {
               <nav aria-label="Page navigation example" className="text-center">
                 <ul className="inline-flex -space-x-px text-sm">
                   <li>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-orange-600 border-gray-300 rounded-s-lg hover:bg-orange-400 hover:text-orange-800 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
                     >
                       <AiOutlineArrowLeft />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center justify-center px-3 h-8 leading-tight text-orange-600  border-gray-300 hover:bg-orange-400 hover:text-orange-800 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
                     >
                       1
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center justify-center px-3 h-8 leading-tight text-orange-600  border-gray-300 hover:bg-orange-400 hover:text-orange-800 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
                     >
                       2
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="#"
                       aria-current="page"
                       className="flex items-center justify-center px-3 h-8 text-orange-600 border border-gray-300  hover:bg-orange-400 hover:text-orange-800 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
                     >
                       3
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center justify-center px-3 h-8 leading-tight text-orange-600 border-gray-300 rounded-e-lg hover:bg-orange-400 hover:text-orange-800 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
                     >
                       <AiOutlineArrowRight />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>
@@ -329,7 +329,7 @@ const Dashboard = () => {
 
             {/* table - 2 */}
             <div>
-              <h1 className="text-3xl font-bold mb-5">Recent Activity</h1>
+              <h1 className="text-2xl font-bold mb-5">Recent Activity</h1>
               <div className="overflow-hidden mb-5">
                 <Table className="md:w-full w-400 ">
                   <TableBody>
@@ -352,14 +352,14 @@ const Dashboard = () => {
                         </div>
                       </TableCell>
                       <TableCell className="text-center pe-0">
-                        <p className="font-bold md:text-xl text-md">Swapped</p>
-                        <p className="md:text-md text-xs">
+                        <p className="font-bold md:text-sm text-xs">Swapped</p>
+                        <p className="md:text-sm text-xs">
                           20 LINK For 0.1074 ETH
                         </p>
                       </TableCell>
                       <TableCell className="md:w-28 w-24">
-                        <p className="md:text-lg text-sm">03/19/23</p>
-                        <p className="float-end text-orange-500 md:text-xl text-md">
+                        <p className="md:text-sm text-xs">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-sm text-xs">
                           <LuArrowUpRight />
                         </p>
                       </TableCell>
@@ -379,14 +379,14 @@ const Dashboard = () => {
                         </div>
                       </TableCell>
                       <TableCell className="text-center pe-0">
-                        <p className="font-bold md:text-xl text-md">Received</p>
-                        <p className="md:text-md text-xs">
+                        <p className="font-bold md:text-sm text-xs">Received</p>
+                        <p className="md:text-sm text-xs">
                           NFT From mutant.ens
                         </p>
                       </TableCell>
                       <TableCell className="md:w-28 w-24">
-                        <p className="md:text-lg text-sm">03/19/23</p>
-                        <p className="float-end text-orange-500 md:text-xl text-md">
+                        <p className="md:text-sm text-xs">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-sm text-xs">
                           <LuArrowUpRight />
                         </p>
                       </TableCell>
@@ -406,16 +406,16 @@ const Dashboard = () => {
                         </div>
                       </TableCell>
                       <TableCell className="text-center pe-0">
-                        <p className="font-bold md:text-xl text-md">
+                        <p className="font-bold md:text-sm text-xs">
                           Transferred
                         </p>
-                        <p className="md:text-md text-xs">
+                        <p className="md:text-sm text-xs">
                           WBTC to 0x6584...BD68
                         </p>
                       </TableCell>
                       <TableCell className="md:w-28 w-24">
-                        <p className="md:text-lg text-sm">03/19/23</p>
-                        <p className="float-end text-orange-500 md:text-xl text-md">
+                        <p className="md:text-sm text-xs">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-sm text-xs">
                           <LuArrowUpRight />
                         </p>
                       </TableCell>
@@ -435,14 +435,14 @@ const Dashboard = () => {
                         </div>
                       </TableCell>
                       <TableCell className="text-center pe-0">
-                        <p className="font-bold md:text-xl text-md">Bridged</p>
-                        <p className="md:text-md text-xs">
+                        <p className="font-bold md:text-sm text-xs">Bridged</p>
+                        <p className="md:text-sm text-xs">
                           Ethereum to polygon
                         </p>
                       </TableCell>
                       <TableCell className="md:w-28 w-24">
-                        <p className="md:text-lg text-sm">03/19/23</p>
-                        <p className="float-end text-orange-500 md:text-xl text-md">
+                        <p className="md:text-sm text-xs">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-sm text-xs">
                           <LuArrowUpRight />
                         </p>
                       </TableCell>
@@ -467,14 +467,14 @@ const Dashboard = () => {
                         </div>
                       </TableCell>
                       <TableCell className="text-center pe-0">
-                        <p className="font-bold md:text-xl text-md">Swapped</p>
-                        <p className="md:text-md text-xs">
+                        <p className="font-bold md:text-sm text-xs">Swapped</p>
+                        <p className="md:text-sm text-xs">
                           1 ETH to 3,500 USDC
                         </p>
                       </TableCell>
                       <TableCell className="md:w-28 w-24">
-                        <p className="md:text-lg text-sm">03/19/23</p>
-                        <p className="float-end text-orange-500 md:text-xl text-md">
+                        <p className="md:text-sm text-xs">03/19/23</p>
+                        <p className="float-end text-orange-500 md:text-sm text-xs">
                           <LuArrowUpRight />
                         </p>
                       </TableCell>
@@ -485,46 +485,46 @@ const Dashboard = () => {
               <nav aria-label="Page navigation example" className="text-center">
                 <ul className="inline-flex -space-x-px text-sm">
                   <li>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-orange-600 border-gray-300 rounded-s-lg hover:bg-orange-400 hover:text-orange-800 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
                     >
                       <AiOutlineArrowLeft />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center justify-center px-3 h-8 leading-tight text-orange-600  border-gray-300 hover:bg-orange-400 hover:text-orange-800 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
                     >
                       1
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center justify-center px-3 h-8 leading-tight text-orange-600  border-gray-300 hover:bg-orange-400 hover:text-orange-800 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
                     >
                       2
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="#"
                       aria-current="page"
                       className="flex items-center justify-center px-3 h-8 text-orange-600 border border-gray-300  hover:bg-orange-400 hover:text-orange-800 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
                     >
                       3
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       href="#"
                       className="flex items-center justify-center px-3 h-8 leading-tight text-orange-600 border-gray-300 rounded-e-lg hover:bg-orange-400 hover:text-orange-800 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
                     >
                       <AiOutlineArrowRight />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>
