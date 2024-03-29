@@ -17,7 +17,7 @@ const CoinSlider = () => {
 
   return (
     <div >
-      <p className="text-2xl mb-3">Your top movers</p>
+      <p className="text-1xl mb-3">Your top movers</p>
       <Carousel
         plugins={[plugin.current]}
         className="w-full "
@@ -32,8 +32,8 @@ const CoinSlider = () => {
                   <div className="flex gap-2">
                     <img src="../Images/coin-1.png" alt="" className="w-12" />
                     <div>
-                      <p className="text-xl">ETH</p>
-                      <p className="text-sm">$3,500</p>
+                      <p className="text-sm">ETH</p>
+                      <p className="text-xs">$3,500</p>
                     </div>
                   </div>
                   <span className="text-green-600 flex items-center">
@@ -51,8 +51,8 @@ const CoinSlider = () => {
                   <div className="flex gap-2">
                     <img src="../Images/coin-2.png" alt="" className="w-12" />
                     <div>
-                      <p className="text-xl">WBTC</p>
-                      <p className="text-sm">$67,500</p>
+                      <p className="text-sm">WBTC</p>
+                      <p className="text-xs">$67,500</p>
                     </div>
                   </div>
                   <span className="text-green-600 flex items-center">
@@ -70,8 +70,8 @@ const CoinSlider = () => {
                   <div className="flex gap-2">
                     <img src="../Images/coin-3.png" alt="" className="w-12" />
                     <div>
-                      <p className="text-xl">FRAX</p>
-                      <p className="text-sm">$1,01</p>
+                      <p className="text-sm">FRAX</p>
+                      <p className="text-xs">$1,01</p>
                     </div>
                   </div>
                   <span className="text-green-600 flex items-center">
@@ -91,3 +91,4 @@ const CoinSlider = () => {
 };
 
 export default CoinSlider;
+
